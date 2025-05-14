@@ -77,7 +77,7 @@ void main() {
 
     start_worst = clock();
     merge_sort(worst_arr, 0, SIZE-1);
-    end_best = clock();
+    end_worst = clock();
     time_worst = ((double)(end_worst - start_worst)) / CLOCKS_PER_SEC;
 
     printf("Best case time = %lf\n", time_best);
